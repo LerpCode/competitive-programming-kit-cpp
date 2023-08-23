@@ -38,7 +38,7 @@ using namespace std;
 #define isletter(c) ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 
 void solve(){
-   cout << 10 * cos(PI/6);
+   
 }
 
 int main(){
