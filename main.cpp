@@ -10,7 +10,7 @@
 using namespace std;
 
 
-#define fast() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define fast() ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 #define ull unsigned long long int
 #define ll long long
 #define MOD 1000000007
@@ -18,7 +18,7 @@ using namespace std;
 #define PI acos(-1)
 #define space char(32)
 #define el '\n'
-#define str(s) getline(cin,s)
+#define get(s) getline(cin,s)
 #define ign() cin.ignore()
 #define gcd(a,b) __gcd(a,b)
 #define lcm(a,b) ((a * b)/__gcd(a,b))
@@ -26,6 +26,7 @@ using namespace std;
 #define maxarr(a,n) *max_element(a, a + n)
 #define minarr(a,n) *min_element(a, a + n)
 #define one(a,n) int a[n]
+#define odu(a,n) double a[n]
 #define oll(a,n) ll a[n]
 #define two(a,m,n) int a[m][n]
 #define tll(a,m,n) ll a[m][n]
@@ -36,11 +37,13 @@ using namespace std;
 #define isup(c) (c >= 'A' && c <= 'Z')
 #define islow(c) (c >= 'a' && c <= 'z')
 #define isletter(c) ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-
+#define FORI(a,b,x) for(int i = a;i < b;i += x)
+#define FORJ(a,b,x) for(int j = a;j < b;j += x)
+#define FORIE(a,b,x) for(int i = a;i <= b;i += x)
+#define FORID(a,b,x) for(double i = a;i < b;i += x)
 void solve(){
-   
+ 
 }
-
 int main(){
     fast();
     solve();
