@@ -2,9 +2,7 @@
 #pragma GCC optimize("unroll-loops")  
 #pragma GCC target("avx,avx2,tune=native")  
 #pragma GCC optimize("inline")  
-#pragma GCC optimize("fast-math")  
-#pragma GCC optimize("Os")  
-#pragma GCC optimize("O0")
+#pragma GCC optimize("fast-math") 
 
 #include <bits/stdc++.h>
 using namespace std;
